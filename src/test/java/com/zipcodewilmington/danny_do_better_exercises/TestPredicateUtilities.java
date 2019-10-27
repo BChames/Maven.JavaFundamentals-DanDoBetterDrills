@@ -99,8 +99,9 @@ public class TestPredicateUtilities {
     @Test
     public void testLessOrEqualFalse() {
         // : Given
-        int greaterValue = 3;
-        int lesserValue = 6;
+        // Modified to match your latest commit
+        int greaterValue = 6;
+        int lesserValue = 3;
 
         // : When
         boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
